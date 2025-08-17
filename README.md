@@ -230,6 +230,16 @@ For instructions on how to compile the program in Linux for Windows (via MinGW),
 **V1.1**: Speed up to 20% (AVX2 version!)  
 **V1.0**: Release
 
-## ✌️**TIPS**
-BTC: bc1qtq4y9l9ajeyxq05ynq09z8p52xdmk4hqky9c8n
+# Donate
+If this project is helpful to you, please consider donating. Your support is greatly appreciated. Thank you!
+```
+BTC: bc1qt3nh2e6gjsfkfacnkglt5uqghzvlrr6jahyj2k
+ETH: 0xD6503e5994bF46052338a9286Bc43bC1c3811Fa1
+DOGE: DTszb9cPALbG9ESNJMFJt4ECqWGRCgucky
+TRX: TAHUmjyzg7B3Nndv264zWYUhQ9HUmX4Xu4
+```
+# 📜 Disclaimer
+This software is for educational purposes only, vulnerability testing, and developer training. Do not use it for any other purpose. This code is intended only for learning and understanding its workings.
+Please ensure that the program is run in a secure environment and in compliance with local laws and regulations!
+The developer is not responsible for any financial losses or legal liabilities resulting from the use of this code.
 
