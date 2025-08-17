@@ -1,11 +1,14 @@
-# 🚀 keydetective: The World's Fastest CPU Satoshi Puzzle Solver
+# 🚀 keydetective: The world's fastest CPU version of the BTC puzzle detector
 
-keydetective is the fastest CPU Satoshi puzzle solver in the world, leveraging the power of modern CPU instructions such as **AVX2** to achieve unparalleled performance. Designed to run on **Linux** and **Windows**, keydetective is optimized for speed and accuracy, making it the ideal tool for solving cryptographic puzzles.
-Secp256k1 math are based on the excellent work from JeanLucPons/VanitySearch (https://github.com/JeanLucPons/VanitySearch), with a few modifications.
-I extend our gratitude to Jean-Luc Pons for his foundational contributions to the cryptographic community.
+KeyDetective is the world's fastest CPU-based Bitcoin key cracker. It leverages the power of modern CPU instruction sets like AVX2 to achieve unparalleled performance. Designed specifically for jigsaw puzzles and vanity addresses, KeyDetective is optimized for speed and accuracy, making it an ideal tool for cracking complex passwords.
 ps: This is a fork, please support the original author:https://github.com/Dookoo2/Cyclone
-1. Modifications have been made on the original basis to optimize the cooperation between threads, solve the problem of Windows system constantly refreshing the screen, and fix some minor problems 。
-2. Adding the -R random option makes the search more random. -R 1 specifies that after searching one million private keys, a new random private key will be selected as the starting point for the search. This completely solves the problem of auto-increment not being able to shift. The hit rate still depends entirely on luck. Small-scale testing has found that smaller random values result in slower search speeds. Therefore, using a larger value, such as -R 10000, is recommended to maintain the original speed while also ensuring a better level of randomness.
+
+1. Secp256k1 math are based on the excellent work from JeanLucPons/VanitySearch (https://github.com/JeanLucPons/VanitySearch), with a few modifications.
+I extend our gratitude to Jean-Luc Pons for his foundational contributions to the cryptographic community.
+
+2. Modifications have been made on the original basis to optimize the cooperation between threads, solve the problem of Windows system constantly refreshing the screen, And fixed many minor issues.
+ 
+3. Adding the -R random option makes the search more random. -R 1 specifies that after searching one million private keys, a new random private key will be selected as the starting point for the search. This completely solves the problem of auto-increment not being able to shift. The hit rate still depends entirely on luck. Small-scale testing has found that smaller random values result in slower search speeds. Therefore, using a larger value, such as -R 10000, is recommended to maintain the original speed while also ensuring a better level of randomness.
 ---
 
 ## ⚡ Key Features
