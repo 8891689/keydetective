@@ -1,6 +1,6 @@
-# 🚀 keydetective: The world's fastest CPU-based BTC puzzle detector
+# 🚀 KeyDetective is the world's fastest CPU-based Bitcoin key cracker.
 
-KeyDetective is the world's fastest CPU-based Bitcoin key cracker. It leverages the power of modern CPU instruction sets like AVX2 to achieve unparalleled performance. Designed specifically for jigsaw puzzles and vanity addresses, KeyDetective is optimized for speed and accuracy, making it an ideal tool for cracking complex passwords.
+It leverages the power of modern CPU instruction sets like AVX2 to achieve unparalleled performance. Designed specifically for jigsaw puzzles and vanity addresses, KeyDetective is optimized for speed and accuracy, making it an ideal tool for cracking complex passwords.
 ps: This is a fork, please support the original author:https://github.com/Dookoo2/Cyclone
 
 1. Secp256k1 math are based on the excellent work from JeanLucPons/VanitySearch (https://github.com/JeanLucPons/VanitySearch), with a few modifications.
